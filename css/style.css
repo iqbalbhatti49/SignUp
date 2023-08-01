@@ -1,0 +1,144 @@
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+}
+.navbar-home {
+    background-color: rgb(4, 219, 4);
+}
+
+li {
+    margin: 0 15px;
+}
+
+.links {
+    text-decoration: none;
+}
+.links:hover {
+    background-color: transparent;
+}
+.main {
+    text-align: center;
+    justify-content: center;
+}
+
+.join-btn {
+    color: white;
+    background-color: rgb(4, 219, 4);
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* for date of birth fields */
+.dateofbirth {
+    margin-top: 20px;
+    width: 79px;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* CSS for input fields */
+.input-field {
+    margin-top: 20px;
+    width: 250px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input-field::-ms-expand, .dateofbirth::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .input-field:focus, .dateofbirth:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgb(4, 219, 4);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(4, 219, 4, 0.25);
+  }
+  
+  .input-field::-webkit-input-placeholder, .dateofbirth::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .input-field::-moz-placeholder, .dateofbirth::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .input-field:-ms-input-placeholder, .dateofbirth:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .input-field::-ms-input-placeholder, .dateofbirth::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .input-field::placeholder, .dateofbirth::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  
+  .input-field:disabled, .dateofbirth:disabled, .dateofbirth[readonly], 
+  .input-field[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+  
+/* for button disabled */
+#name-btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#dob-btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#contact-btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#edu-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#survey-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
